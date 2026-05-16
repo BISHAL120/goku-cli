@@ -1,0 +1,19 @@
+{
+  "service": {
+    "name": "api",
+    "port": 8080,
+    "enabled": true
+  },
+  "database": {
+    "host": "localhost",
+    "ports": [5432, 5433],
+    "credentials": {
+      "user": "demo",
+      "pass": "demo"
+    }
+  },
+  "features": [
+    {"name": "logging", "enabled": true},
+    {"name": "metrics", "enabled": false}
+  ]
+}

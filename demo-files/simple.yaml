@@ -1,0 +1,8 @@
+name: Goku
+age: 25
+powerLevel: 9001
+isSaiyan: true
+friends:
+  - Krillin
+  - Gohan
+  - Vegeta

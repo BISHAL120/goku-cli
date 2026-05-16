@@ -7,6 +7,7 @@ A small CLI that converts files between JSON and YAML using Cobra.
 Start here if you're new to Go:
 
 - [BEGINNER_GUIDE.md](file:///Users/bishal/Go-Lang/goku-cli/docs/BEGINNER_GUIDE.md)
+- [conversion-flow.md](file:///Users/bishal/Go-Lang/goku-cli/docs/conversion-flow.md)
 
 ## Build
 

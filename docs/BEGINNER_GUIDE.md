@@ -33,7 +33,7 @@ the program follows this path:
 ### Code
 
 ```go
-module github.com/bishal/goku-cli
+module github.com/BISHAL120/goku-cli
 
 go 1.25
 
@@ -45,9 +45,9 @@ require (
 
 ### Explanation
 
-- `module github.com/bishal/goku-cli`
+- `module github.com/BISHAL120/goku-cli`
   - This is the module name (import path) for your project.
-  - When you write `import "github.com/bishal/goku-cli/cmd"`, Go uses this module path.
+  - When you write `import "github.com/BISHAL120/goku-cli/cmd"`, Go uses this module path.
 - `go 1.25`
   - The Go language version this module is intended to work with.
 - `require (...)`
@@ -71,7 +71,7 @@ package main
 // We import our own "cmd" package.
 //
 // The cmd package holds all Cobra commands (root command and subcommands).
-import "github.com/bishal/goku-cli/cmd"
+import "github.com/BISHAL120/goku-cli/cmd"
 
 // main is the first function that runs when the program starts.
 //
@@ -86,7 +86,7 @@ func main() {
 - `package main`
   - Every Go file starts with a package name.
   - Programs that produce an executable must have `package main`.
-- `import "github.com/bishal/goku-cli/cmd"`
+- `import "github.com/BISHAL120/goku-cli/cmd"`
   - Imports your local package that defines the CLI commands.
 - `func main() { ... }`
   - The Go runtime calls this function to start your program.
@@ -196,7 +196,7 @@ import (
     "path/filepath"
     "strings"
 
-    "github.com/bishal/goku-cli/internal/convert"
+    "github.com/BISHAL120/goku-cli/internal/convert"
     "github.com/spf13/cobra"
 )
 
@@ -301,7 +301,7 @@ func writeAll(path string, data []byte) error {
   - Extract file extensions in a cross-platform way.
 - `strings`
   - Trim whitespace and lowercase strings.
-- `github.com/bishal/goku-cli/internal/convert`
+- `github.com/BISHAL120/goku-cli/internal/convert`
   - Your conversion logic package (the “engine”).
 - `github.com/spf13/cobra`
   - Cobra framework for the CLI.

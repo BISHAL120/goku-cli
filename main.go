@@ -7,7 +7,7 @@ package main
 // We import our own "cmd" package.
 //
 // The cmd package holds all Cobra commands (root command and subcommands).
-import "github.com/bishal/goku-cli/cmd"
+import "github.com/BISHAL120/goku-cli/cmd"
 
 // main is the first function that runs when the program starts.
 //

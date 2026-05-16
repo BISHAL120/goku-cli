@@ -1,4 +1,4 @@
-module github.com/bishal/goku-cli
+module github.com/BISHAL120/goku-cli
 
 go 1.25
 

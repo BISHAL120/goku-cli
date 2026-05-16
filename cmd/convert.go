@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bishal/goku-cli/internal/convert"
+	"github.com/BISHAL120/goku-cli/internal/convert"
 	"github.com/spf13/cobra"
 )
 
